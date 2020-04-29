@@ -23,7 +23,6 @@ public class ProductController2 {
 	public String showForm(Model model) {
 		Product p = new Product();
 		p.setPrice(100D);
-		// Creating and storing new empty product object
 		// THIS object would be PASSED to FORM page as "modelAttribute"
 		model.addAttribute("product",p);
 		return "form";
